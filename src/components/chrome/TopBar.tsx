@@ -32,9 +32,6 @@ export function TopBar({ onMenuClick }: Props) {
 
         <Link href="/" className="flex items-center gap-3 mr-8">
           <span className="font-bold text-accent text-xl tracking-[0.18em]">COM98</span>
-          <span className="hidden md:inline text-[10px] font-bold uppercase tracking-[0.2em] text-muted">
-            BRAIN
-          </span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-6 flex-1">

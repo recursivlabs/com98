@@ -26,7 +26,7 @@ export function ChatHome() {
       <div className="w-full max-w-2xl space-y-10">
         <div className="text-center space-y-3">
           <div className="font-bold text-accent text-5xl md:text-7xl tracking-[0.18em]">COM98</div>
-          <Label className="text-muted">THE BRAIN BEHIND THE OPERATION</Label>
+          <Label className="text-muted">BRAIN</Label>
         </div>
 
         <ChatInput onSubmit={start} autoFocus size="lg" placeholder="ASK ANYTHING ABOUT COM98" />
